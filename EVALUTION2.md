@@ -137,6 +137,8 @@ for(let i of a){
 ### 3. anatomy / anonymous / assigning function to variable
 
 **Anatomy function**
+
+
 **function definiton consists of function keyword is known as anatomy function**
 
 **Algorithm**
@@ -169,6 +171,8 @@ Hi!!!
 ```
 
 **Anonymous**
+
+
 **The function without name os known as anonymous function**
 
 **Algorithm**
@@ -198,6 +202,8 @@ print in one seconds
 ```
 
 **assigning function to a variable**
+
+
 **A function is assigned to an variable is known as assigning function to an variable**
 
 **Algorithm**
