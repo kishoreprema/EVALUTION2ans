@@ -307,3 +307,8 @@ const person = {
 5566
 ```
 
+## 6. This in function and class
+
+**This is used in class**
+
+**Algorithm**
