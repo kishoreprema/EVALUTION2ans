@@ -8,7 +8,7 @@
     - Step 5 . end the program.
 
 **Psuedocode**
-'''
+```
     start
         int the value
         print the output
@@ -17,8 +17,7 @@
         break
         if(i>1 && flag == 0)
     END
-
-'''
+```
 
 
 **code**
