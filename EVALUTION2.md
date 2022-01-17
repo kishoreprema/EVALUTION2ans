@@ -7,8 +7,8 @@
     - Step 4 . print the output.
     - Step 5 . end the program.
 
-'''
 **Psuedocode**
+'''
     start
         int the value
         print the output
@@ -20,5 +20,5 @@
 
 '''
 
-'''
+
 **code**
