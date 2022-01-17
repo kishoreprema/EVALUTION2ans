@@ -1,6 +1,6 @@
 
-var startnum = prompt('Enter start number: ');
-var endnum = prompt('Enter end number: ');
+var startnum =(1);
+var endnum = (200);
 
 console.log(`The prime numbers between ${startnum } and ${ endnum }} are:`);
 for (let i = startnum; i <= endnum; i++) {
