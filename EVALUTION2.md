@@ -232,7 +232,7 @@ print();
 Assigning fuction to variable
 ```
 
-## Safeguarding function **
+## Safeguarding function 
 **Algorithm**
     - Step 1 . Start the program.
     - Step 2 . init a funcrtion
