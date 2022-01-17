@@ -1,12 +1,12 @@
 ### 1. prime numbet 1 to 200
 **Algorithm**
-
+```
     - Step 1 . Start the program.
     - Step 2 . Initialize the values.
     - Step 3 . Check the condition.
     - Step 4 . print the output.
     - Step 5 . end the program.
-
+```
 **Psuedocode**
 ```
     start
@@ -96,13 +96,13 @@ The prime numbers between 1 and 200} are:
 ### 2. common array
 
 **Algorithm**
-
+```
     - Step 1 . Start the program.
     - Step 2 . Initialize the arrays.
     - Step 3 . Check the condition.
     - Step 4 . print the output.
     - Step 5 . end the program.
-
+```
 **psuedocode**
 ```
     START
@@ -176,11 +176,11 @@ Hi!!!
 **The function without name os known as anonymous function**
 
 **Algorithm**
-
+```
     - Step 1 . Start the program.
     - Step 2 . ini a function with time out
     - Step 3 . end the program.
-
+```
 **psuedocode**
 ```
     START
@@ -207,11 +207,12 @@ print in one seconds
 **A function is assigned to an variable is known as assigning function to an variable**
 
 **Algorithm**
+```
     - Step 1 . Start the program.
     - Step 2 . assign a function to an variable
     - Step 3 . call the variable.
     - Step 4 . end the program.
-
+```
 **psuedocode**
 ```
     START
