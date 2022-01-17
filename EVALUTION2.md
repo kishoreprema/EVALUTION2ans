@@ -233,7 +233,7 @@ print();
 Assigning fuction to variable
 ```
 
-## Safeguarding function 
+##  4. Safeguarding function 
 **Algorithm**
 ```
     - Step 1 . Start the program.
@@ -270,6 +270,40 @@ Its not a function
 ```
 
 
+## 5. explain this keyword 
+
+**Algorithm**
+
+    - Step 1 . Start the program
+    - Step 2 . init an object .
+    - Step 3 . use this function.
+    - Step 4 . print the output,
+
+**Psuedocode**
+```
+    START
+        const person={}
+        myFunction : function()
+        console.log(person.myFunction)
+    END
+```
+**code**
+```javascript
 
 
+const person = {
+    firstName  : "John",
+    lastName   : "Doe",
+    id         : 5566,
+    myFunction : function() {
+      return this.id;
+    }
+  };
+  console.log(person.myFunction());
+```
+
+**output**
+```console
+5566
+```
 
