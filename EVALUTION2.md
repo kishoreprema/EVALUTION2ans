@@ -91,3 +91,139 @@ The prime numbers between 1 and 200} are:
  193
  197
  199
+ ```
+
+### 2. common array
+
+**Algorithm**
+
+    - Step 1 . Start the program.
+    - Step 2 . Initialize the arrays.
+    - Step 3 . Check the condition.
+    - Step 4 . print the output.
+    - Step 5 . end the program.
+
+**psuedocode**
+```
+    START
+        var a =[]
+        var b = []
+        for(let i of b)
+        console.log
+    END
+```
+
+**code**
+```javascript
+var a = [1,2,3,4,5,6,7,8,9,10];
+var b = [2,4,5,7,11,15];
+
+for(let i of a){
+  if(b.includes(i)){
+    console.log(i)
+  }
+}
+
+```
+**output**
+```console
+2
+4
+5
+7
+
+```
+
+### 3. anatomy / anonymous / assigning function to variable
+
+**Anatomy function**
+**function definiton consists of function keyword is known as anatomy function**
+
+**Algorithm**
+```
+    - Step 1 . Start the program.
+    - Step 2 . Initialize the function.
+    - Step 3 . call the function.
+    - Step 4 . end the program.
+```
+
+**psuedocode**
+```
+    START
+        function()
+        call the function
+    END
+```
+
+**code**
+```javascript
+function sayHi() {
+    console.log("Hi!!!");
+}
+sayHi();
+```
+
+**output**
+```console
+Hi!!!
+```
+
+**Anonymous**
+**The function without name os known as anonymous function**
+
+**Algorithm**
+
+    - Step 1 . Start the program.
+    - Step 2 . ini a function with time out
+    - Step 3 . end the program.
+
+**psuedocode**
+```
+    START
+        setTimeout(function)
+    END
+
+```
+
+**code**
+```javascript
+setTimeout(function(){
+    console.log("print in one seconds")
+},1000);
+```
+
+**output**
+```console
+print in one seconds
+```
+
+**assigning function to a variable**
+**A function is assigned to an variable is known as assigning function to an variable**
+
+**Algorithm**
+    - Step 1 . Start the program.
+    - Step 2 . assign a function to an variable
+    - Step 3 . call the variable.
+    - Step 4 . end the program.
+
+**psuedocode**
+```
+    START
+        let print=function()
+        print();
+    END
+```
+**code**
+```javascript
+let print = function() {
+    console.log('Assigning fuction to variable');
+};
+
+print();
+```
+**output**
+```console
+Assigning fuction to variable
+```
+
+

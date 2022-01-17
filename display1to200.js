@@ -4,14 +4,14 @@ var endnum = (200);
 
 console.log(`The prime numbers between ${startnum } and ${ endnum }} are:`);
 for (let i = startnum; i <= endnum; i++) {
-    let flag = 0;
+      var isPrime = false;
     for (let j = 2; j < i; j++) {
         if (i % j == 0) {
-            flag = 1;
+             isPrime = true ;
             break;
         }
     }
-    if (i > 1 && flag == 0) {
+    if (i > 1 && isPrime == 0) {
         console.log(i);
     }
 }
