@@ -232,4 +232,41 @@ print();
 Assigning fuction to variable
 ```
 
+## Safeguarding function **
+**Algorithm**
+    - Step 1 . Start the program.
+    - Step 2 . init a funcrtion
+    - Step 3 . conditon
+    - Step 4 . end the program.
+
+**psuedocode**
+```
+    START
+        function()
+        if(typeof func == "function")
+        array =[]
+        f= function()
+    END
+```
+**code**
+```javascript
+function fun(func){
+    //Call the function but only if it is a function:
+    if(typeof func == "function")
+      console.log(func());
+      else
+      console.log("Its not a function");
+}
+var array = [];
+var f = function () {}
+fun(array);
+```
+**output**
+```console
+Its not a function
+```
+
+
+
+
 
