@@ -479,12 +479,49 @@ console.log(r);
 
 **Algorithm**
 
-    Step 1. Use Strict mode as global.
-   Step 2. Create a function with a parameter of age.
-Step 3. Check the validation of the input.
-Step 4. Get today date by Date() and get the year from date.
-Step 5. Subract current year from birth year.
-Step 6. Call the function.
+   Step 1. Use Strict mode as global.
+    Step 2. Create a function with a parameter of age.
+    Step 3. Check the validation of the input.
+    Step 4. Get today date by Date() and get the year from date.
+    Step 5. Subract current year from birth year.
+    Step 6. Call the function.
+
+**psuedocode**
+```
+BEGIN
+"use strict"
+FUNCTION currentage(birthYear)
+  INIT convertToString = birthYear + "";
+IF(typeof birthYear === "number" && convertToString.indexOf(".") === -1)THEN
+    INIT year = new Date();
+    INIT currentYear = year.getFullYear();
+    INIT age = currentYear - birthYear;
+    PRINT(age);
+ELSE
+ PRINT("enter the valid value");
+ENDIF 
+FUNCTION END
+FUNCTION CALL currentage(2001);
+```
+**code**
+```javascript
+"use strict"
+function currentage(birthYear){
+    const convertToString = birthYear + "";
+if(typeof birthYear === "number" && convertToString.indexOf(".") === -1)    {
+    const year = new Date();
+    const currentYear = year.getFullYear();
+    const age = currentYear - birthYear;
+    console.log(age);
+}else
+ console.log("enter the valid value");
+}
+currentage(2001);
+```
+**output**
+```console
+21
+```
 
 
 ### 11 . call by value and call by refernce
