@@ -1,8 +1,10 @@
-var planets = function(a){
+ ("use strict");
+ let planets = function(a,c){
     return function(b){
-        return"fav plantes is " +a +"and " +b;
+        return"fav plantes is " +a +  " and " +b  + " and " 
+        + c;
     }
 }
- var favplanets = planets ("jupitor");
- favplanets("earth");
- favplanets("mars");
+ var favplanets = planets ("jupitor" , "mars");
+ console.log(favplanets("earth"));
+// console.log(favplanets("mars"));

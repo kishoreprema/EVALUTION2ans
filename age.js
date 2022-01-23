@@ -1,9 +1,10 @@
-var dob = '19990108';
-var year = Number(dob.substr(0, 4));
-var month = Number(dob.substr(4, 2)) - 1;
-var day = Number(dob.substr(6, 2));
-var today = new Date();
-var age = today.getFullYear() - year;
+"use strict";
+let dob = '19990108';
+let year = Number(dob.substr);
+let month = Number(dob.substr) - 1;
+let day = Number(dob.substr));
+let today = new Date();
+let age = today.getFullYear() - year;
 if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < day)) {
   age--;
 }
