@@ -544,6 +544,7 @@ step 5. Stop
 ```
 
 **psuedocode**
+
 ```
     BEGIN
         inti a b
