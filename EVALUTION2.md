@@ -312,15 +312,72 @@ const person = {
 **This is used in class**
 
 **Algorithm**
+    Step 1. Use Strict mode as global.
+    Step 2. Create a class and create a object constructor in class.
+    Step 3. Then return this.
+    Step 4. Create a new object constructor to the class.
+    Step 5. Call the object constructor.
 
- 
-
-var thisperson = function(){
-    return this;
+**psuedocode**
+```
+    BEGIN
+        class thisClass{
+            return this
+        }
+        let obj = new thisClass();
+        console.log(obj)
+    END
+```
+**code**
+```javascript
+"use strict";
+//'this' inside class
+class thisClass{
+    constructor() {
+      return this;
+    }
 }
-var obj = new thisperson();
+let obj = new thisClass();
 console.log(obj);
+```
+**output**
+```console
+thisClass{}
+```
 
+### this used in function 
+
+**Algorithm**
+
+    Step 1. Use Strict mode as global.
+    Step 2. Declare a function and assign to a variable.
+    Step 3. Return this in function.
+    Step 4. Create new constructor object for fucntion.
+    Step 5. Then print the object.
+
+**psuedocode**
+```
+    BEGIN
+        thiskfunction = function()
+        var obj = new thisfunction()
+        console.log(obj)
+    END
+```
+**code**
+```javascript
+"use strict";
+//'this' inside function
+let thisFunction = function () {
+    return this;
+};
+let obj = new thisFunction();
+console.log(obj);
+```
+
+**output**
+```console
+thisFunction {}
+```
 
 ### 7. map,reduce,filters
 
@@ -440,7 +497,76 @@ console.log(positive_array);
 [0, 1, 5, 12, 19, 20]
 ```
 
-### 8 . 
+### 8 . count number of zeros
+
+**Algorithm**
+```
+    Step 1. Use Strict mode as global.
+    Step 2. Create two variables globally. Then convert it to string for validation of float
+    Step 3. Validate it of number and float. Create a variable with 0.
+    Step 4. Use for loop to iterate the number and convert it to string.
+    Step 5. Split the number by 0 then make it count to a varibale.
+    Step 6. Then print the value.
+```
+
+**psuedocode**
+```
+BEGIN
+"use strict";
+INIT start = 1;
+INIT end = 50;
+INIT startConvertToString = start + "" ;
+INIT endConvertToString = end + "" ;
+IF(typeof start === "number" && typeof end === "number" )THEN
+   IF(startConvertToString.indexOf(".") === -1 && endConvertToString.indexOf(".") === -1)THEN
+        INIT count = 0;
+        FOR (let i = start ; i <= end ; i++ ) DO
+            INIT numberToString = i + "" ;
+            SET count += numberToString.split("0").length - 1;
+        ENDFOR
+        PRINT(count);
+    ELSE
+        PRINT("The float value not accepted"); 
+    ENDIF
+ELSE
+    PRINT("The string value not accepted");
+ENDIF
+```
+**code**
+```javascript
+"use strict";
+//give input range find number of zero
+const start = 1;
+const end = 50;
+//convert input value to string
+const startConvertToString = start + "" ;
+const endConvertToString = end + "" ;
+// check if type of value is number or not 
+if(typeof start === "number" && typeof end === "number" ){
+   if(startConvertToString.indexOf(".") === -1 && endConvertToString.indexOf(".") === -1){
+        let count = 0;
+        for(let i = start ; i <= end ; i++ ){
+            let numberToString = i + "" ;
+            //split the number by 0 and add length - 1 to count
+            count += numberToString.split("0").length - 1;
+        }
+        console.log(count);
+    }
+    else{
+        console.log("The float value not accepted"); 
+    }
+}
+else{
+    console.log("The string value not accepted");
+}
+```
+
+**output**
+```console
+5
+```
+
+
 
 ### 9 . missing value in array
 
@@ -530,6 +656,7 @@ currentage(2001);
 
 ### 11 . call by value and call by refernce
 
+
 **In Pass by Value, Function is called by directly passing the value of the variable as the argument.**
 
 **Changing the argument inside the function doesn’t affect the variable passed from outside the function.**
@@ -576,6 +703,7 @@ let a = 5;
 
 **call by reference**
 
+
 **In Pass by Reference, Function is called by directly passing the reference/address of the variable as the argument.**
 
 **Changing the argument inside the function affect the variable passed from outside the function.**
@@ -619,6 +747,7 @@ let c = { greeting : 'hi' };
 
 ### 12 . Arity
 
+
 **The arity property used to return the number of arguments expected by the function.**
 
 **You can access function’s arity via Function.length property.**
@@ -654,6 +783,7 @@ console.log(arity);
 ```
 
 ### 13 . currying 
+
 
 **Currying is a transformation of functions that translates a function from callable as f(a, b, c) into callable as f(a)(b)(c)**
 
@@ -698,6 +828,7 @@ fav plantes is jupitor and earth and mars
 ```
 
 ###  14 . what is ES6
+
 
 **JavaScript ES6 (also known as ECMAScript 2015 or ECMAScript 6) is the newer version of JavaScript that was introduced in 2015.**
 
