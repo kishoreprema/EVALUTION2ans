@@ -312,12 +312,13 @@ const person = {
 **This is used in class**
 
 **Algorithm**
+```
     Step 1. Use Strict mode as global.
     Step 2. Create a class and create a object constructor in class.
     Step 3. Then return this.
     Step 4. Create a new object constructor to the class.
     Step 5. Call the object constructor.
-
+```
 **psuedocode**
 ```
     BEGIN
