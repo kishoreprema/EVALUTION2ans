@@ -478,8 +478,9 @@ console.log(r);
 ### 10 . finding age using dob
 
 **Algorithm**
+```
 
-   Step 1. Use Strict mode as global.
+    Step 1. Use Strict mode as global.
     Step 2. Create a function with a parameter of age.
     Step 3. Check the validation of the input.
     Step 4. Get today date by Date() and get the year from date.
