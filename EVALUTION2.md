@@ -388,11 +388,13 @@ thisFunction {}
 
 
 **Algorithm**
+```
     step 1. Start the program.
     step 2. Initialize the variable
     step 3. And map the function
     step 4. Print result
     step 5.Stop.
+```
 
 **psuedocode**
 ```
@@ -429,13 +431,14 @@ console.log(modifiedArr);
 **This can remove unnecessary iterations.**
 
 **Algorithm**
+```
 
     step 1. Start the program.
     step 2. Initialize the array
     step 3. And reduce the previousValue and currentValue
     step 4. Print result
     step 5.Stop.
-
+```
 **psuedocode**
 ```
     BEGIN
@@ -712,13 +715,14 @@ let a = 5;
 **In Javascript objects and arrays follows pass by reference.**
 
 **Algorithm**
+```
 
     step 1. Start the program.
     step 2. Initialize the variable and assigning value to variable.
     step 3. Changing the value of c
     step 4. Print result
     step 5. Stop.
-
+```
 **psuedocode**
 ```
     BEGIN
@@ -791,13 +795,14 @@ console.log(arity);
 **Currying doesn’t call a function. It just transforms it.**
 
 **Algorithm**
+```
 
 
-Step 1. Use Strict mode as global.
-Step 2. Create a function with parameter and assign to a variable.
-Step 3. Return a the function inside the return function return another function with parameter.
-Step 4. print tyhe output
-
+    Step 1. Use Strict mode as global.
+    Step 2. Create a function with parameter and assign to a variable.
+    Step 3. Return a the function inside the return function return another function with parameter.
+    Step 4. print tyhe output
+```
 **psuedocode**
 ```
     BEGIN
@@ -842,12 +847,13 @@ fav plantes is jupitor and earth and mars
 
 
 **Algorithm**
+```
 
     step 1. Start the program.
     step 2. To create function without name.
     step 3. Print the result
     step 4. stop.
-
+```
 
 **psuedocode**
 ```
@@ -877,12 +883,14 @@ print in one seconds
 **The JavaScript statements that define the function, enclosed in curly brackets, {...}.**
 
 **Algorithm**
+```
 
     step 1. Start the program.
     step 2. To create function with name.
     step 3. After that return the arguments
     step 4. Print the result
     step 5 .stop.
+```
 
 **psuedocode**
 ```
