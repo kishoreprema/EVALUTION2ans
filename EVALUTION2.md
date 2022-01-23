@@ -486,8 +486,10 @@ console.log(r);
     Step 4. Get today date by Date() and get the year from date.
     Step 5. Subract current year from birth year.
     Step 6. Call the function.
+```
 
 **psuedocode**
+
 ```
 BEGIN
 "use strict"
@@ -503,6 +505,7 @@ ELSE
 ENDIF 
 FUNCTION END
 FUNCTION CALL currentage(2001);
+
 ```
 **code**
 ```javascript
