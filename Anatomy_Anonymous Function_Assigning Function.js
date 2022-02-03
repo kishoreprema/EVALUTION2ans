@@ -1,8 +1,8 @@
 //anatomy 
-function sayHi() {
+function SayHi() {
     console.log("Hi!!!");
 }
-sayHi();
+SayHi();
 
 //anonymous 
 setTimeout(function(){
@@ -11,8 +11,8 @@ setTimeout(function(){
 
 //assigning fun to variable
 
-let print = function() {
+let Print = function() {
     console.log('Assigning fuction to variable');
 };
 
-print();
+Print();

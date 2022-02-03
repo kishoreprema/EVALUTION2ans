@@ -954,12 +954,14 @@ Assigning fuction to variable
 
 
 
+let x = [1,2,3]
+console.log(x);
 
 
-
-
-
-
+let obj 1 =(name : "kisore" , age : 21);
+let obj 2 =(name : "karthi" );
+console.log(obj1.name);
+console.log(obj2.age);
 
 
 

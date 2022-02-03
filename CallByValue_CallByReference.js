@@ -1,4 +1,5 @@
-// call by value 
+// call by value
+"use strict";
 let a = 5;
     let b;
     b = a;
@@ -8,11 +9,10 @@ let a = 5;
 
 // call by refernce
 
-   "use strict";
 let c = { greeting : 'hi' };
     let d;
     d = c;
-    c.greeting = 'kishore';
+    c.greeting = 'Kishore';
     console.log(c);
     console.log(d);
 

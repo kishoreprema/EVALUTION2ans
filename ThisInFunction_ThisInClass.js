@@ -13,5 +13,5 @@ console.log(obj);
 let thisFunction = function () {
     return this;
 };
-let obj = new thisFunction();
-console.log(obj);
+let newobj = new thisFunction();
+console.log(newobj);
