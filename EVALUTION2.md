@@ -875,7 +875,7 @@ print in one seconds
 ```
 
 ### 16 . named function
-
+dfghjk
 **The name of the function.**
 
 **A list of parameters to the function, enclosed in parentheses and separated by commas.**
